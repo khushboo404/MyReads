@@ -88,7 +88,7 @@ class BookSearch extends Component {
 
 				{ this.state.error && !this.state.isSearching && (
 					<div className="search-books-results center">
-						<h3>No Result Found</h3>
+						<h3>Sorry, No Result Found !</h3>
 					</div>
 				)}
 

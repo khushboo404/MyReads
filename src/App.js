@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-import * as BooksAPI from './BooksAPI'
+import * as BooksAPI from './components/BooksAPI'
 import BookShelf from './components/BookShelf';
 import BookSearch from './components/BookSearch';
 
